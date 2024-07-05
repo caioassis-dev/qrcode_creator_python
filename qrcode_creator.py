@@ -13,7 +13,7 @@ def create_qr_code():
     else:
         messagebox.showerror("QR Code Generator", "Por favor entre com a URL.")
 
-root = tk.Tk
+root = tk.Tk()
 
 root.title("QR Code Generator")
 
